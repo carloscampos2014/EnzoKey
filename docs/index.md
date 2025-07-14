@@ -1,16 +1,17 @@
-# Bem-vindo à Documentação EnzoKey
-
-Este é o site oficial da documentação do sistema de licenciamento interno EnzoKey.
-
-## Tópicos
-
-- [Visão Geral](01_visao_geral.md)  
-- [Escopo](02_escopo.md)  
-- [Requisitos](03_requisitos.md)  
-- [Arquitetura](06_arquitetura.md)  
-- [API](07_apis.md)  
-- [Regras de Negócio](10_regras_negocio.md)  
-
+ï»¿---
+title: "DocumentaÃ§Ã£o EnzoKey"
+layout: default
 ---
 
-*Última atualização: {{ site.time | date: "%d/%m/%Y" }}*
+# ðŸ“˜ EnzoKey â€” DocumentaÃ§Ã£o TÃ©cnica
+
+Este Ã© o portal da documentaÃ§Ã£o tÃ©cnica do sistema de licenciamento interno da EnzoSoft.
+
+## ðŸ“„ SumÃ¡rio
+
+- [01 - VisÃ£o Geral](01_visao_geral.md)
+- [02 - Escopo](02_escopo.md)
+- [03 - Requisitos](03_requisitos.md)
+- [06 - Arquitetura](06_arquitetura.md)
+- [07 - API](07_apis.md)
+- [10 - Regras de NegÃ³cio](10_regras_negocio.md)
