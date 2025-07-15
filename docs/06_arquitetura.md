@@ -1,12 +1,9 @@
-# Arquitetura do Sistema EnzoKey
+---
+layout: default
+title: Arquitetura
+nav_order: 2
+---
 
-## Camadas Principais
-- Domain: Entidades e regras de negócio
-- Application: Casos de uso e serviços
-- Infrastructure: Acesso a dados e serviços externos
-- API: Interface RESTful
-- Cliente Desktop (.NET MAUI)
+# Arquitetura
 
-## Comunicação
-- API RESTful consumida pelo cliente interno
-- API de validação acessada por softwares da empresa
+Conteúdo do documento de arquitetura...

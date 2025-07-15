@@ -1,13 +1,14 @@
-﻿---
-title: "Documentação EnzoKey"
+---
 layout: default
+title: Início
+nav_order: 1
 ---
 
-# 📘 EnzoKey — Documentação Técnica
+# 📘 Documentação EnzoKey
 
-Este é o portal da documentação técnica do sistema de licenciamento interno da EnzoSoft.
+Documentação técnica do sistema de licenciamento **EnzoKey**.
 
-## 📄 Sumário
+## Índice
 
 - [01 - Visão Geral](01_visao_geral.md)
 - [02 - Escopo](02_escopo.md)
