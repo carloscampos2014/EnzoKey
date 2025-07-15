@@ -16,3 +16,4 @@ Documentação técnica do sistema de licenciamento **EnzoKey**.
 - [06 - Arquitetura](06_arquitetura.md)
 - [07 - API](07_apis.md)
 - [10 - Regras de Negócio](10_regras_negocio.md)
+
