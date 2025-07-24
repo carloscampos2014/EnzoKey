@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\pull_request_template.md = .github\pull_request_template.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6BD9AE6-8C9B-4B77-8BCA-7FA0900A1A93}"
+	ProjectSection(SolutionItems) = preProject
+		docs\01_visao_geral.md = docs\01_visao_geral.md
+		docs\02_escopo.md = docs\02_escopo.md
+		docs\03_requisitos.md = docs\03_requisitos.md
+		docs\06_arquitetura.md = docs\06_arquitetura.md
+		docs\07_apis.md = docs\07_apis.md
+		docs\10_regras_negocio.md = docs\10_regras_negocio.md
+		docs\index.md = docs\index.md
+		docs\_config.yml = docs\_config.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CFCACB9-B131-4C67-9628-3396F2A17F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{429975FD-461E-4A2B-8729-DD1BEF242A8F}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F4BEB9-0711-4C24-A3C9-C8AB5BA56270}
+	EndGlobalSection
+EndGlobal
