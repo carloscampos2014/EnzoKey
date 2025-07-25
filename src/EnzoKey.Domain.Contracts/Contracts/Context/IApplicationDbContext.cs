@@ -1,7 +1,7 @@
 ﻿using EnzoKey.Domain.Contracts.Model.DTO;
 using Microsoft.EntityFrameworkCore;
 
-namespace EnzoKey.Domain.Contracts.Contracts;
+namespace EnzoKey.Domain.Contracts.Contracts.Context;
 
 public interface IApplicationDbContext
 {
