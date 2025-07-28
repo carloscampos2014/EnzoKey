@@ -11,16 +11,13 @@ namespace EnzoKey.Domain.Contracts.Model.DTO;
 public class Licenca
 {
     [Key]
-    public int IdLicenca { get; set; }
+    public Guid IdLicenca { get; set; } = Guid.NewGuid(); // Gera um GUID único para cada licença
 
     [Required]
-    public Guid ChaveLicenca { get; set; } // A chave única que será validada
+    public Guid IdCliente { get; set; } // FK
 
     [Required]
-    public int IdCliente { get; set; } // FK
-
-    [Required]
-    public int IdProduto { get; set; } // FK
+    public Guid IdProduto { get; set; } // FK
 
     [Required]
     public TipoLicenciamento Tipo { get; set; }

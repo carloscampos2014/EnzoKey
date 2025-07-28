@@ -10,7 +10,7 @@ namespace EnzoKey.Domain.Contracts.Model.DTO;
 public class UsuarioAdmin
 {
     [Key]
-    public int IdUsuarioAdmin { get; set; }
+    public Guid IdUsuarioAdmin { get; set; } = Guid.NewGuid(); // Gera um GUID único para cada usuário
 
     [Required]
     [StringLength(100)]

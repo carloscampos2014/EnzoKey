@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using EnzoKey.Domain.Contracts.Enum;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EnzoKey.Domain.Contracts.Model.DTO;
@@ -10,11 +11,14 @@ namespace EnzoKey.Domain.Contracts.Model.DTO;
 public class Cliente
 {
     [Key]
-    public int IdCliente { get; set; }
+    public Guid IdCliente { get; set; } = Guid.NewGuid();
 
     [Required]
     [StringLength(150)]
     public string NomeEmpresa { get; set; }
+
+    [Required]
+    public TipoPersonalidade Personalidade { get; set; }
 
     [StringLength(18)] // Suficiente para CNPJ
     public string Documento { get; set; } // Pode ser CPF ou CNPJ

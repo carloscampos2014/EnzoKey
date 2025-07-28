@@ -10,7 +10,7 @@ namespace EnzoKey.Domain.Contracts.Model.DTO;
 public class Produto
 {
     [Key]
-    public int IdProduto { get; set; }
+    public Guid IdProduto { get; set; } = Guid.NewGuid(); // Gera um GUID único para cada produto
 
     [Required]
     [StringLength(100)]
