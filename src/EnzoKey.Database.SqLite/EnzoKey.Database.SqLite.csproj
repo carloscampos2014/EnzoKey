@@ -10,8 +10,4 @@
     <ProjectReference Include="..\EnzoKey.Domain.Contracts\EnzoKey.Domain.Contracts.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
